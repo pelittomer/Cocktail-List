@@ -1,6 +1,6 @@
 
- <img  src="homepage.png" width="700" height="400" />
- <img  src="details.png" width="700" height="400" />
+ <img  src="homepage.png" width="800" height="500" />
+ <img  src="details.png" width="800" height="400" />
 
 <h2>You will need; </h2>
 <li>API : TheCocktailDB</li>
