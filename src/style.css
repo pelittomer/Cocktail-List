@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-navbar: #e76f51;
+    --bg-container: #e9c46a;
+    --bg-cocktail: #fefae0;
+    --bg-btn: #2a9d8f;
+    --bg-search: #EFE6DD;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 7px;
+    background-color: var(--bg-btn);
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: black;
+}
+
+img {
+    width: 100%;
+    min-width: 250px;
+    height: 350px;
+    border-radius: 8px;
+}
+
+.navbar {
+    padding: 15px;
+    background-color: var(--bg-navbar);
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.loading {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.error {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin-bottom:10px;
+}
+
+/*----------------COCKTAİL LİST----------*/
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: var(--bg-container);
+    border-radius: 8px;
+}
+
+.cocktail-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+/*----------------COCKTAİL----------*/
+.cocktail {
+    background-color: var(--bg-cocktail);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.cocktail-content {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.title-center {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+/*----------------SEARCH FORM----------*/
+
+.search-box {
+    background-color: var(--bg-search);
+    padding: 15px;
+    max-width: 550px;
+    align-items: center;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-box label {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.search-box input {
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 1.1rem;
+}
+
+/*----------------SİNGLE COCKTAİL----------*/
+
+.single-cocktail {
+    background-color: var(--bg-cocktail);
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+
+.drink {
+    padding-left: 20px;
+}
+
+.drink-info p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+.drink-data {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: capitalize
+}
+
+@media only screen and (max-width: 1050px) {
+    .cocktail-container {
+        grid-template-columns: 1fr;
+    }
+}

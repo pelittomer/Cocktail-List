@@ -1,3 +1,16 @@
+
+ <img  src="homepage.png" width="700" height="400" />
+ <img  src="details.png" width="700" height="400" />
+
+<h2>You will need; </h2>
+<li>API : TheCocktailDB</li>
+<li>Fetch</li>
+<li>React hooks : UseState,UseEffect,UseCallback,useContext</li>
+<li>Fonts : Google Fonts</li>
+<li>Router : React-router-dom</li>
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
