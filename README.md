@@ -1,6 +1,7 @@
 
- <img  src="homepage.png" width="800" height="500" />
- <img  src="details.png" width="800" height="400" />
+<h1>Preview</h1>
+
+![cocktails](https://user-images.githubusercontent.com/127727007/231054327-8f03cc31-6e5c-454e-ae5e-f50586a61225.gif)
 
 <h2>You will need; </h2>
 <li>API : TheCocktailDB</li>
